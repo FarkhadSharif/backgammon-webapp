@@ -1,0 +1,14 @@
+{
+  "name": "Modern Wood",
+  "description": "Clean modern wooden board sounds. The app currently uses Web Audio synthesis as a lightweight fallback.",
+  "events": {
+    "uiHover": "ui-hover.webm",
+    "uiClick": "ui-click.webm",
+    "diceRoll": "dice-roll.webm",
+    "checkerMove": "checker-move.webm",
+    "win": "win.webm",
+    "lose": "lose.webm",
+    "notification": "notification.webm",
+    "matchStart": "match-start.webm"
+  }
+}

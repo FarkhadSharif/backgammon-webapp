@@ -1,0 +1,14 @@
+{
+  "name": "Kazakh Heritage",
+  "description": "Minimal premium Kazakh-inspired dombra, kobyz, wooden percussion, and steppe atmosphere cues. The app currently uses Web Audio synthesis as a lightweight fallback.",
+  "events": {
+    "uiHover": "dombra-hover.webm",
+    "uiClick": "dombra-click.webm",
+    "diceRoll": "wood-percussion.webm",
+    "checkerMove": "dombra-pluck.webm",
+    "win": "kazakh-win.webm",
+    "lose": "kobyz-resolve.webm",
+    "notification": "steppe-notice.webm",
+    "matchStart": "steppe-start.webm"
+  }
+}
