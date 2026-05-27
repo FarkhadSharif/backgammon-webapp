@@ -1,41 +1,160 @@
-# Backgammon Web App
+# Backgammon.kz
 
-React + Vite single page app scaffold for a backgammon board UI.
+Modern online backgammon platform with multiplayer, AI-powered coaching, progression systems, and Kazakh-inspired design.
 
-## Scripts
+---
 
-```bash
+## About
+
+This project started as a simple backgammon web app, but gradually evolved into a full platform focused on gameplay experience, replayability, and identity.
+
+The goal was not just to recreate classic backgammon in the browser, but to make it feel modern and memorable:
+
+- smooth gameplay,
+- real-time multiplayer,
+- strategic assistance for beginners,
+- progression systems,
+- and a recognizable visual style inspired by Kazakhstan.
+
+The platform combines traditional board game mechanics with modern web technologies and social features.
+
+---
+
+## Main Features
+
+### Gameplay
+
+- Full backgammon rules implementation
+- Dice rolling system
+- Turn-based gameplay
+- Legal move validation
+- Win detection
+- Highlighted available moves
+- Local game saving
+
+### Multiplayer
+
+- Real-time online matches
+- Play with friends via invite link
+- Synced gameplay using WebSockets
+
+### AI Features
+
+- AI Coach after matches
+- Strategic recommendations
+- Move analysis and beginner tips
+
+### User System
+
+- Authentication
+- Match history
+- Saved player statistics
+- Win/loss tracking
+
+### UI / UX
+
+- Responsive design
+- Mobile-friendly layout
+- Dark and light themes
+- Sound effects
+- Smooth animations
+
+### National Identity
+
+- Kazakh-inspired visual style
+- Traditional atmosphere and sounds
+- Custom themed skins
+
+### Monetization Ideas
+
+- Premium cosmetic skins
+- Upgrade to Pro concept
+- Tournament system potential
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- TailwindCSS
+
+### Backend / Database
+
+- Supabase
+
+### Realtime
+
+- WebSockets
+
+### Authentication
+
+- Supabase Auth
+
+### AI
+
+- OpenRouter API
+
+### Deployment
+
+- Vercel
+
+---
+
+## Why This Project Is Different
+
+Most browser backgammon games focus only on basic gameplay.
+
+This project tries to go further by combining:
+
+- competitive play,
+- coaching systems,
+- social interaction,
+- cultural identity,
+- and long-term engagement mechanics.
+
+The idea was to make something that feels closer to a real product than a simple coding assignment.
+
+---
+
+## Future Improvements
+
+Planned features:
+
+- Ranked matchmaking
+- Tournament mode
+- Advanced AI opponent
+- Replay system
+- Seasonal events
+- Clan/community system
+- Mobile application
+
+---
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/FarkhadSharif/backgammon-webapp.git
+
+Install dependencies:
+
 npm install
+
+Start development server:
+
 npm run dev
-```
 
-## Supabase
+Environment Variables
 
-Create `.env.local` from `.env.example` and use your Supabase project URL plus a
-public anon/publishable key. Do not use a service role key or `sb_secret_*` key
-in this browser app.
+Create a .env.local file:
 
-Run `supabase/schema.sql` in the Supabase SQL editor to create the `profiles`
-table, row level security policies, and the auth trigger that stores profiles.
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_ANON_KEY=your_key
+OPENROUTER_API_KEY=your_key
 
-## Structure
+Author
 
-```text
-src/
-  components/
-    board/
-      BackgammonBoard.jsx
-      Bar.jsx
-      BoardQuadrant.jsx
-      BorneOffArea.jsx
-      Point.jsx
-    layout/
-      GameHeader.jsx
-  styles/
-    index.css
-  App.jsx
-  main.jsx
-```
-
-The current implementation is intentionally static. Game rules, moves, dice,
-turns, and checker state are left for the next phase.
+Built by Farkhad Sharif
