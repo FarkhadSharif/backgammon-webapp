@@ -2,6 +2,8 @@
 
 Modern online backgammon platform with multiplayer, AI-powered coaching, progression systems, and Kazakh-inspired design.
 
+You can access this website in https://farkhadbackgammon.netlify.app/
+
 ---
 
 ## About
